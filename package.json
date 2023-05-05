@@ -1,0 +1,17 @@
+{
+  "name": "BackEnd_ToyProject",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/kk-jae/BackEnd_ToyProject.git",
+  "author": "권현재 <kk_jae@naver.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "scripts": {
+    "client": "yarn workspace client start",
+    "server": "yarn workspace server start"
+  }
+}
